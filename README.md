@@ -23,3 +23,9 @@ Features:
  
  Other built in features:
   Don't know, but the coin will be cool
+
+The hash algorithm will henceforth be known as the Kallisti Algorithm
+
+Note: To compile, it requires Botan, and JsonCPP
+
+Both of whihc are easily used from Msys2, which I use to compile on my desktop
