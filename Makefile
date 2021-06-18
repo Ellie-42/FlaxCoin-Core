@@ -59,7 +59,7 @@ all : test
 
 .PHONY : clean
 clean :
-	-$(RM) -rf *.a *.o $(INSTALLDIR) $(objDir) $(srcDir)/.o $(bin)
+	-$(RM) -rf *.a *.o $(INSTALLDIR) $(bin) $(objDir) $(srcDir)/*.o 
 	
 .PHONY : cleansphincs
 cleansphincs :

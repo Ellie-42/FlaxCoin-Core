@@ -10,7 +10,8 @@
 #include <memory>
 #include <json/json.h>
 
-const float CB_AMNT = 100.0;
+const float CB_AMNT = 250.0;
+const int blockDecay = 550000;
 
 namespace transData{
 
