@@ -29,3 +29,11 @@ The hash algorithm will henceforth be known as the Kallisti Algorithm
 Note: To compile, it requires Botan, and JsonCPP
 
 Both of whihc are easily used from Msys2, which I use to compile on my desktop
+
+
+To build the library, simpl use "make install"
+
+This program does use MSYS2 on windows. I am lookign to fix the makefile to be one size fits all
+This program requires Botan and JsonCPP, both available on MSYS2
+
+Any help is apprecated either in the makefile, websites, or even the readme file!
