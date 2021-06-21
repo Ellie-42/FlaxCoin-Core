@@ -1,0 +1,183 @@
+# depslib dependency file v1.0
+1624256068 source:p:\flax\flax_lib_dev\src\block.cpp
+	"block.h"
+	<iostream>
+
+1624256068 p:\flax\flax_lib_dev\include\block.h
+	<json/json.h>
+
+1624256068 source:p:\flax\flax_lib_dev\src\blockchain.cpp
+	"blockChain.h"
+	"mineAlgo.h"
+	<memory>
+	<botan/hash.h>
+	<botan/base58.h>
+	<botan/secmem.h>
+	<iostream>
+	<math.h>
+	"utils.h"
+	"txStructs.h"
+
+1624256068 p:\flax\flax_lib_dev\include\blockchain.h
+	"block.h"
+	"mineAlgo.h"
+	"transactionData.h"
+	"txStructs.h"
+	<vector>
+
+1624256068 p:\flax\flax_lib_dev\include\minealgo.h
+	"block.h"
+	<memory>
+	<string>
+	<bitset>
+
+1624256068 p:\flax\flax_lib_dev\include\transactiondata.h
+	<vector>
+	<string>
+	<botan/hash.h>
+	<botan/base58.h>
+	<memory>
+	<json/json.h>
+	"txStructs.h"
+	"api.h"
+
+1624256068 p:\flax\flax_lib_dev\include\txstructs.h
+	"api.h"
+	"BRng.h"
+	<vector>
+	<string>
+	<botan/hash.h>
+	<botan/base58.h>
+	<memory>
+	<json/json.h>
+
+1624256068 p:\flax\flax_lib_dev\spmsource\include\api.h
+	<iostream>
+	<stddef.h>
+	<stdbool.h>
+	<stdint.h>
+	<memory>
+	"immintrin.h"
+
+1624256068 p:\flax\flax_lib_dev\include\brng.h
+	"api.h"
+	<botan/rng.h>
+	<botan/auto_rng.h>
+
+1624256068 p:\flax\flax_lib_dev\include\utils.h
+	<string>
+	<vector>
+	<algorithm>
+	<botan/hash.h>
+	<botan/auto_rng.h>
+	<botan/rng.h>
+	<iostream>
+	<sstream>
+	<bitset>
+
+1624256068 source:p:\flax\flax_lib_dev\src\brng.cpp
+	"BRng.h"
+	<botan/hash.h>
+	<botan/auto_rng.h>
+	<botan/rng.h>
+	<botan/base58.h>
+	<iostream>
+	<sstream>
+	<bitset>
+	"ISAAC64.h"
+
+1624256068 p:\flax\flax_lib_dev\include\isaac64.h
+	<cstdint>
+	<limits>
+	<cstring>
+	<random>
+
+1624256068 source:p:\flax\flax_lib_dev\src\isrand.cpp
+	"ISRand.h"
+	"api.h"
+
+1624256068 p:\flax\flax_lib_dev\include\isrand.h
+	<random>
+	<iostream>
+	<bitset>
+	<sstream>
+	"ISAAC64.h"
+	"api.h"
+
+1624256068 source:p:\flax\flax_lib_dev\src\minealgo.cpp
+	"mineAlgo.h"
+	"block.h"
+	<memory>
+	<iostream>
+	<string>
+	<botan/hash.h>
+	<botan/base58.h>
+	<botan/hex.h>
+	<botan/rng.h>
+	<botan/auto_rng.h>
+	<chrono>
+	<bitset>
+	<iostream>
+	<bitset>
+
+1624256068 source:p:\flax\flax_lib_dev\src\minenode.cpp
+	"mineNode.h"
+
+1624256068 p:\flax\flax_lib_dev\include\minenode.h
+	<vector>
+	<string>
+	<iostream>
+	"wallet.h"
+	"block.h"
+	"blockChain.h"
+	"txStructs.h"
+	"mineAlgo.h"
+
+1624256068 p:\flax\flax_lib_dev\include\wallet.h
+	<botan/secmem.h>
+	"txStructs.h"
+	<random>
+	"ISAAC64.h"
+	"api.h"
+	<vector>
+	<memory>
+	"utils.h"
+	<botan/base58.h>
+	"transactionData.h"
+
+1624256068 source:p:\flax\flax_lib_dev\src\transactiondata.cpp
+	"transactionData.h"
+	<vector>
+	<string>
+	<botan/hash.h>
+	<botan/base58.h>
+	<botan/base64.h>
+	<memory>
+	<json/json.h>
+	"txStructs.h"
+
+1624256068 source:p:\flax\flax_lib_dev\src\utils.cpp
+	<string>
+	<vector>
+	<algorithm>
+	<botan/hash.h>
+	<botan/auto_rng.h>
+	<botan/rng.h>
+	<iostream>
+	<sstream>
+	<bitset>
+	"utils.h"
+
+1624256068 source:p:\flax\flax_lib_dev\src\wallet.cpp
+	"wallet.h"
+	"api.h"
+	"ISRand.h"
+	"utils.h"
+	<string>
+	<random>
+	<iostream>
+	<stddef.h>
+	<stdbool.h>
+	<stdint.h>
+	<memory>
+
