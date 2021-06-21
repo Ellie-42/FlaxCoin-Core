@@ -1,0 +1,17 @@
+-Redo the entire transaction class and related
+	1) Add the transaction methods to the wallets
+	2) Create ID, Sign TX, etc whould take a pointer to a transaction objects, and return a bool if it was sucessful
+	3) Transaction pools and associated fees
+		a) The total coinbase amnt has to be equal to the current block reward + fees as provided by the current block (fees are transmitted to the TransactionID)
+			i) "342BLOCKFEE" is the "value" transmitted. It is officially "lost" on the chain but is verifiable to be apart of that coinbase transaction as it is addressed to the TransactionID
+
+-Test the transactions on the blockchain
+
+-Create core functionality as a wallet
+	1) Create a GUI interface that makes use of the library in its entirety
+	2) Make methods for nodes to find each other on the network; whether these are mining pools or other core wallets
+	3) Create methods to transmit signed transactions to all known nodes
+
+-Each wallet has the ability to mine, provided it is a core wallet. This will not be an efficient miner, but it wil help to get the coin moving. Efficieny to be built later
+
+-Definitly create a roadmap and white paper soon
